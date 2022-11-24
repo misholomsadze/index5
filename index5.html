@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+*{
+    box-sizing: border-box;
+}
+body {
+  background-color: #f1f1f1;
+  padding: 20px;
+  font-family: Arial;
+  background-color: #ccc;
+  opacity: 0.9;
+}
+
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+
+.row {
+  margin: 8px -16px;
+}
+
+.row > .column {
+  padding: 8px;
+}
+
+.column {
+  float: left;
+  width: 25%;
+}
+
+.row:after {
+  content: normal;
+  display: table;
+  clear: both;
+}
+
+.content {
+  background-color: rgb(255, 255, 255);
+  padding: 10px;
+}
+
+h1{
+    text-align: center;
+    padding-left: 40px;
+}
+
+</style>
+</head>
+<body>
+
+<div class="main">
+
+<h1>Photo Gallery</h1>
+<hr>
+
+<div class="row">
+  <div class="column">
+    <div class="content">
+      <img src="image/random.jfif" alt="Balloon" style="width:100%">
+      <h3>Balloon</h3>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="image/girl.jpg" alt="Girl" style="width:100%">
+      <h3>Girl</h3>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="image/ringg.jpg" alt="Ring" style="width:100%">
+      <h3>Ring</h3>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="image/sun.jpg" alt="Sun" style="width:100%">
+      <h3>Sun</h3>
+  </div>
+</div>
+</body>
+</html>
